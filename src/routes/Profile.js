@@ -1,4 +1,4 @@
-import { authService, dbService } from './fbase';
+import { authService, dbService } from '../fbase';
 import { useState} from "react";
 import { useNavigate } from "react-router-dom"
 
@@ -22,11 +22,18 @@ const Profile = ({userObj, refreshUser}) =>  {
     };
 
     return (
-        <div className="container">
+        <div className="container" style={{
+            maxWidth: 890,
+            width: "100%",
+            margin: "0 auto",
+            marginTop: 80,
+            display: "flex",
+            justifyContent: "center",
+        }}>
             <form onSubmit={onSubmit} className="profileForm">
                 <input onChange={onChange} type="text"
                        placeholder="Display name" value={newDisplayName}
-                        autoFocus className="formInput"/>
+                       autoFocus className="formInput"/>
                 <input type="submit" value="Update" className="formBtn" style={{marginTop: 10}}/>
             </form>
             <span className="formBtn cancelBtn logOut" onClick={onLogOutClick}>
