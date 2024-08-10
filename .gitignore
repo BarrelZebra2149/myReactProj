@@ -21,8 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# dependencies
-/src
-/functions
-src/routes/.env
