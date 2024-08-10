@@ -23,4 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # dependencies
-/.env
+/src
+/functions
+src/routes/.env

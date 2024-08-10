@@ -1,6 +1,6 @@
-import AppRouter from "../routes"
+import AppRouter from "../routes/index"
 import { useState } from "react";
-import { authService } from "../fbase";
+import { authService } from "../routes/fbase";
 
 function App() {
     const [init, setInit] = useState(false);
