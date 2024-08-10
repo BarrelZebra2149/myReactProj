@@ -27,7 +27,14 @@ const Nweet = ({nweetObj, isOwner}) => {
     }
 
     return (
-        <div className="nweet">
+        <div className="nweet" style={{
+            maxWidth: 890,
+            width: "100%",
+            margin: "0 auto",
+            marginTop: 80,
+            display: "flex",
+            justifyContent: "center",
+        }}>
             {editing ? (
                 <>
                     <form onSubmit={onSubmit} className="container nweetEdit">
