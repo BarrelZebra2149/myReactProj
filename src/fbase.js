@@ -12,13 +12,7 @@ import "firebase/compat/storage";
 console.log(process.env.REACT_APP_API_KEY);
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBjMoYJsRwRVaJ5pbVoZounoX9jJofXPEk",
-    authDomain: "myreact-9a0a8.firebaseapp.com",
-    projectId: "myreact-9a0a8",
-    storageBucket: "myreact-9a0a8.appspot.com",
-    messagingSenderId: "483978841595",
-    appId: "1:483978841595:web:145cbeb1d00dfc77688f5e",
-    measurementId: "G-GVN4PMD5KP"
+    /* erased config intentionally. */
 };
 
 // Initialize Firebase
